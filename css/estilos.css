@@ -292,3 +292,33 @@ body{
         text-align: left;
     }
 }
+
+/*css personalizados*/
+
+.personalizados_titulo{
+    margin-top: 30px;
+    color: #fff;
+    background-color: #3C1642;
+    padding: .5em;
+}
+.personalizados{
+    background-color:  rgba(199, 29, 241, 0.479);
+    
+}
+
+.personalizados_borde_v{
+    border: 4px solid #3C1642;
+}
+
+.personalizado_encabezado{
+    font-size: 2rem;
+    color: black;
+}
+.personalizados_item{
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+}
