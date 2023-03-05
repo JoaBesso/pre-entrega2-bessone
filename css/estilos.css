@@ -71,3 +71,94 @@ body{
 .navicon{
     background-color: rgba(199, 29, 241, 0.479);
 }
+
+
+/*css footer*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #3C1642;
+    color: #fff;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box ul{
+    list-style: none;
+
+}
+
+.pie-pagina .grupo-1 .box ul li{
+    text-align: left;
+    font-size: 12px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2,
+.pie-pagina .grupo-1 .box h3{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p,
+.pie-pagina .grupo-1 .box i{
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #681f74;
+    text-align: center;
+    transition: all 300ms ease;
+    font-size: 25px;
+
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color:  rgba(199, 29, 241, 0.479);
+}
+
+.pie-pagina .grupo-2{
+    background-color: #1b051f;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+
+@media screen and (max-width:700px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
