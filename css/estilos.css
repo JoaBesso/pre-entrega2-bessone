@@ -182,6 +182,7 @@ body{
 }
 
 .titulo{
+    margin-top: 35px;
     text-align: center;
     font-size: 3em;
 }
@@ -342,4 +343,42 @@ body{
     cursor: default;
 
 
+}
+/*css carrusel*/
+
+.carrusel{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrusel .carrusel-desliza{
+    display: flex;
+    animation: scroll 20s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+    width: calc(200px * 8);
+}
+
+
+.carrusel .desliza{
+    display: flex;
+    width: 200px;
+    list-style: none;
+}
+
+.carrusel .desliza img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes scroll{
+0%{
+    -webkit-transforn: translatex(0);
+    transform: translatex(0);
+}
+100%{
+    -webkit-transforn: translatex(calc(-200px * 4));
+    transform: translatex(calc(-200px * 4));
+}
 }
