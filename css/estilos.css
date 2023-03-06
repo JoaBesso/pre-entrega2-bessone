@@ -324,6 +324,7 @@ body{
     color: black;
 }
 
+/*css cards categoria*/
 .container{
     width: 100%;
     display: flex;
@@ -344,7 +345,8 @@ body{
 
 
 }
-/*css carrusel*/
+
+/*css carrusel inicio*/
 
 .carrusel{
     width: 75vw;
