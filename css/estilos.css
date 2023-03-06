@@ -241,7 +241,7 @@ body{
 
 .contacto-form form button:hover,
 .contacto-form footer button:focus{
-    background: rgba(9, 101, 238, 0.479);;
+    background: rgba(9, 101, 238, 0.479);
     transition: background-color 1s ease-out;
     outline: none;
 }
@@ -381,4 +381,40 @@ body{
     -webkit-transforn: translatex(calc(-200px * 4));
     transform: translatex(calc(-200px * 4));
 }
+}
+
+
+/*css sobre nosotros*/
+
+.sobre_nosotros{
+    padding: 50px;
+    margin: 50px;
+    background-color:  #3C1642;
+}
+
+.quienes_somos{
+    background-color: rgb(236, 108, 34);
+}
+.sobre_nosotros h1,
+.sobre_nosotros p,
+.sobre_nosotros h2{
+    color: #000;
+}
+
+.sobre_nosotros p{
+    font-size: 2em;
+}
+
+.preguntas_frecuentes{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: rgb(236, 108, 34);
+}
+
+.acordion-preguntas-frecuentes{
+    font-size: 1.5em;
+}
+
+.btn-preg-frec{
+    font-size: .7em;
 }
